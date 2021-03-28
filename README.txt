@@ -1,0 +1,1 @@
+Data yang terdapat pada database adalah data dummy bukan data asli, yang dibuat menggunakan fungsi seeder pada laravel.

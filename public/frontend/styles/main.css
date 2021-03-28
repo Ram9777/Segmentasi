@@ -1,0 +1,42 @@
+body {
+  background-color: #e4e6eb;
+}
+
+.navbar-expand-lg {
+  background-color: #00c3ff;
+}
+
+.navbar-brand img {
+  max-height: 60px;
+}
+
+.btn-login {
+  background-color: #071c4d;
+  color: #fff;
+}
+
+.btn-login:hover {
+  background-color: #1e3771;
+  color: #fff;
+}
+
+.table-responsive{
+  width: 90%;
+  height: 800px;
+  margin: 30px 30px 30px 30px;
+  padding: 20px 20px 20px 20px;
+  /* border: 1px black dotted; */
+  overflow-y:scroll;
+  overflow-x:scroll;
+}
+
+.table-pk{
+  width: 99%;
+  height: 800px;
+  margin: 30px 30px 30px 30px;
+  padding: 20px 20px 20px 20px;
+  /* border: 1px black dotted; */
+  overflow-y:scroll;
+  overflow-x:scroll;
+}
+/*# sourceMappingURL=main.css.map */

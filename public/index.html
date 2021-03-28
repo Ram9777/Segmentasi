@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="frontend/styles/main.css">
+</head>
+<body>
+    <!-- navbar -->
+    <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light">
+            <a href="#" class="navbar-brand">
+                <img src="frontend/images/logo.PNG" alt="logo"/>
+             </a>
+             <button class="navbar-toggler navbar-toggler-right"
+             type="button"
+             data-toggle="collapse"
+             data-target="#navb">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navb">
+                <ul class="navbar-nav ml-auto mr-3">
+                    <li class="nav-item mx-md-2">
+                        <a href="index.html" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="history.html" class="nav-link">History</a>
+                    </li>
+
+                    <!-- mobile btton -->
+                   
+                </ul>
+                <form class="form-inline d-sm-block d-md-none">
+                    <button class="btn btn-login my-2 my-sm-0 px-4">
+                        Masuk
+                    </button>
+                </form>
+
+                <!-- desktop btton -->
+                <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                        Masuk
+                    </button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <!-- konten -->
+<main>
+    <div class="konten mt-5 ml-5 mr-5">
+        <form action="#">
+            <div class="form-group">
+                <label for="inputNama"><b>Nama</b> </label>
+                <input type="text" class="form-control mb-2 mr-sm-2" 
+                id="inputNama" >
+            </div>
+            <div class="form-group">
+                <label for="inputIDPelanggan"><b>ID Pelanggan</b> </label>
+                <input type="text" class="form-control mb-2 mr-sm-2" 
+                id="inputIDPelanggan">
+            </div>
+            <div class="form-group">
+                <label for="inputGolonganPelanggan"><b>Golongan Pelanggan</b> </label>
+                <input type="text" class="form-control mb-2 mr-sm-2" 
+                id="inputGolonganPelanggan">
+            </div>
+            <div class="form-group">
+            <label for="inputJenispengaduan"><b>Jenis Pengaduan</b> </label>
+            <select name="inputJenispengaduan" id="inputJeniskeluhan" class="custom-select mb-2 mr-sm-2">
+                <option value="A">Pipa Distribusi</option>
+                <option value="B">Pipa Dinas & Asesoris</option>
+                <option value="C">Meter Air</option>
+                <option value="D">Kontinuitas Pengaliran</option>
+                <option value="E">Kualitas Air</option>
+                <option value="F">Pipa Bocor</option>
+                <option value="G">Kesalahan Rekening</option>
+                <option value="H">Lain - Lain</option>
+            </select>
+            </div>
+            <div class="form-group">
+                <label for="inputKeterangan"><b>Keterangan</b> </label>
+                <input type="text" class="form-control mb-2 mr-sm-2" 
+                id="inputKeterangan" 
+                placeholder="Keterangan">
+            </div>
+            <div class="form-group">
+                <label for="Tanggalpengaduan"><b>Tanggal Pengaduan</b> </label>
+                <input type="text" class="form-control mb-2 mr-sm-2" 
+                id="Tanggalpengaduan" >
+                </div>
+            <button type="submit" class="btn btn-primary btn-block">
+                Kirim
+            </button>
+        </form>
+        </div>
+</main>
+
+<footer class="section-footer mt-1 border-top">
+    <div class="container pt-1 pb-1">
+        
+    </div>
+</footer>
+
+    <script src="frontend/libraries/jquery/jquery-3.5.1.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
