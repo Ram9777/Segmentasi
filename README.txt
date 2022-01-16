@@ -1,1 +1,1 @@
-Data yang terdapat pada database adalah data dummy bukan data asli, yang dibuat menggunakan fungsi seeder pada laravel.
+Ini adalah program tugas akhir kuliah saya, program ini adalah program pensegmentasian keluhan pelanggan menggunakan metode K-Medoids, bahasa pemrograman yang digunakan pada aplikasi ini adalah PHP dengan framework laravel 7. Data yang terdapat pada database adalah data dummy bukan data asli, yang dibuat menggunakan fungsi seeder pada laravel.
